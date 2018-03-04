@@ -1,14 +1,33 @@
 <resources>
     <string name="app_name">Perfect</string>
-    <string name="title_activity_home">HomeActivity</string>
-    <string name="title_section1">Section 1</string>
-    <string name="title_section2">Section 2</string>
-    <string name="title_section3">Section 3</string>
+    <string name="title_activity_music">Music Home</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
-    <string name="action_example">Example action</string>
-
     <string name="action_settings">Settings</string>
+    <string name="music_library">Welcome</string>
+    <string name="music_songs">Home</string>
+    <string name="music_playlists">Buy Now</string>
+    <string name="music_albums">Albums</string>
+    <string name="music_artists">Artists</string>
+    <string name="remote_services">Remote Services</string>
+    <string name="sound_cloud">Sound Cloud</string>
+    <string name="local_services">Local Services</string>
+    <string name="app_raw_folder">App raw folder</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="recently_played_songs">Recently Played Songs</string>
+    <string name="hello">Someone Like You</string>
+    <string name="adele">Adele</string>
+    <string name="your_playlists">Your Playlists</string>
+    <string name="let_me_go">Let Me Go</string>
+    <string-array name="imgList">
+        <item>http://perfect4all.com/wp-content/uploads/2017/05/8-Port-Gigabit-Networking-Switch-PFT-GS8-1.jpg</item>
+        <item>http://perfect4all.com/wp-content/uploads/2017/05/8-Port-Ethernet-Networking-Switch-PFT-ES8-1.jpg</item>
+        <item>http://perfect4all.com/wp-content/uploads/2018/01/PFTP-WR300.jpg</item>
+        <item>http://perfect4all.com/wp-content/uploads/2017/05/150-Mbps-Nano-Wireless-Adapter-PFT-WA150-1-600x600.jpg</item>
+        <item>http://perfect4all.com/wp-content/uploads/2017/05/150-Mbps-Nano-Wireless-Adapter-PFT-WA150-1-600x600.jpg</item>
+    </string-array>
 </resources>
