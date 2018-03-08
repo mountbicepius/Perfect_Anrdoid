@@ -3,11 +3,10 @@ package com.anirudh.echeval.perfect.entities;
 
 public class PlaylistObject {
 
-    public String imgUrl;
+    public int photoId;
 
-
-    public PlaylistObject(String url) {
-        this.imgUrl =url;
+    public PlaylistObject(int url) {
+        this.photoId = url;
     }
 
 

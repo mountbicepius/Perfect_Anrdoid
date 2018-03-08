@@ -2,23 +2,14 @@ package com.anirudh.echeval.perfect.adapter;
 
 
 import android.content.Context;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.os.AsyncTask;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 
 import com.anirudh.echeval.perfect.R;
 import com.anirudh.echeval.perfect.entities.PlaylistObject;
-import com.bumptech.glide.load.engine.Resource;
-import com.squareup.picasso.Picasso;
 
-import java.io.InputStream;
-import java.net.HttpURLConnection;
-import java.net.URL;
 import java.util.List;
 
 public class PlaylistAdapter extends RecyclerView.Adapter<PlaylistViewHolder>{
@@ -41,8 +32,9 @@ public class PlaylistAdapter extends RecyclerView.Adapter<PlaylistViewHolder>{
 
     @Override
     public void onBindViewHolder(PlaylistViewHolder holder, int position) {
-        //PlaylistObject playlistObject = playlists.get(position);
-        Picasso.with(this.context).load("http://perfect4all.com/wp-content/uploads/2018/01/PFTP-WR300.jpg").into(holder.playlistCover);
+        PlaylistObject playlistObject = playlists.get(position);
+        //Picasso.with(this.context).load("http://perfect4all.com/wp-content/uploads/2018/01/PFTP-WR300.jpg").into(holder.playlistCover);
+        holder.playlistCover.setImageResource(playlistObject.photoId);
     }
 
     @Override

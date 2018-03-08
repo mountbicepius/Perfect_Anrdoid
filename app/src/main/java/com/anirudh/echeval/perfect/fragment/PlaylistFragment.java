@@ -4,6 +4,7 @@ package com.anirudh.echeval.perfect.fragment;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.GridLayoutManager;
+import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -30,8 +31,7 @@ public class PlaylistFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_playlist, container, false);
 
         RecyclerView playlisRecyclerView = (RecyclerView)view.findViewById(R.id.your_play_list);
-        GridLayoutManager gridLayout = new GridLayoutManager(getActivity(), 2);
-        playlisRecyclerView.setLayoutManager(gridLayout);
+        playlisRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
         playlisRecyclerView.setHasFixedSize(true);
 
         PlaylistAdapter mAdapter = new PlaylistAdapter(getActivity(), getTestData());
@@ -42,11 +42,11 @@ public class PlaylistFragment extends Fragment {
 
     public List<PlaylistObject> getTestData() {
         List<PlaylistObject> trackList = new ArrayList<PlaylistObject>();
-        String[] Lines = Arrays.asList(getResources().getStringArray(R.array.imgList)).toArray(new String[0]);
-        for(String val : Lines)
-        {
-            trackList.add(new PlaylistObject(val));
-        }
+          trackList.add(new PlaylistObject(R.drawable.pftes8));
+        trackList.add(new PlaylistObject(R.drawable.pftgs8));
+        trackList.add(new PlaylistObject(R.drawable.pftpwr300));
+        trackList.add(new PlaylistObject(R.drawable.pftwa150));
+        trackList.add(new PlaylistObject(R.drawable.pftwa300));
         return trackList;
     }
 }

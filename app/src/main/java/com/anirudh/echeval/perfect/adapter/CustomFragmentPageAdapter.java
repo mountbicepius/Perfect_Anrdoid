@@ -5,6 +5,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
+import com.anirudh.echeval.perfect.fragment.AboutFragment;
 import com.anirudh.echeval.perfect.fragment.PlaylistFragment;
 import com.anirudh.echeval.perfect.fragment.SongFragment;
 
@@ -12,7 +13,7 @@ public class CustomFragmentPageAdapter extends FragmentPagerAdapter{
 
     private static final String TAG = CustomFragmentPageAdapter.class.getSimpleName();
 
-    private static final int FRAGMENT_COUNT = 2;
+    private static final int FRAGMENT_COUNT = 3;
 
     public CustomFragmentPageAdapter(FragmentManager fm) {
         super(fm);
@@ -25,9 +26,9 @@ public class CustomFragmentPageAdapter extends FragmentPagerAdapter{
                 return new SongFragment();
             case 1:
                 return new PlaylistFragment();
-           /* case 2:
-                return new SongFragment();
-            case 3:
+            case 2:
+                return new AboutFragment();
+           /* case 3:
                 return new SongFragment();
             case 1:
                 return new PlaylistFragment();
@@ -51,9 +52,9 @@ public class CustomFragmentPageAdapter extends FragmentPagerAdapter{
                 return "Home";
             case 1:
                 return "Buy Now";
-            /*case 2:
-                return "Albums";
-            case 3:
+            case 2:
+                return "About";
+            /*case 3:
                 return "Artists";
                 */
         }

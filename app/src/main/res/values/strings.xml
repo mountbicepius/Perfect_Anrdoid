@@ -6,7 +6,7 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
-    <string name="music_library">Welcome</string>
+    <string name="music_library">Share</string>
     <string name="music_songs">Home</string>
     <string name="music_playlists">Buy Now</string>
     <string name="music_albums">Albums</string>
@@ -18,16 +18,24 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="recently_played_songs">Recently Played Songs</string>
     <string name="hello">Someone Like You</string>
     <string name="adele">Adele</string>
-    <string name="your_playlists">Your Playlists</string>
+    <string name="your_playlists">Choose to buy online</string>
     <string name="let_me_go">Let Me Go</string>
-    <string-array name="imgList">
-        <item>http://perfect4all.com/wp-content/uploads/2017/05/8-Port-Gigabit-Networking-Switch-PFT-GS8-1.jpg</item>
-        <item>http://perfect4all.com/wp-content/uploads/2017/05/8-Port-Ethernet-Networking-Switch-PFT-ES8-1.jpg</item>
-        <item>http://perfect4all.com/wp-content/uploads/2018/01/PFTP-WR300.jpg</item>
-        <item>http://perfect4all.com/wp-content/uploads/2017/05/150-Mbps-Nano-Wireless-Adapter-PFT-WA150-1-600x600.jpg</item>
-        <item>http://perfect4all.com/wp-content/uploads/2017/05/150-Mbps-Nano-Wireless-Adapter-PFT-WA150-1-600x600.jpg</item>
-    </string-array>
+    <string name="about" >
+        Perfect..
+Headquartered in Singapore, Perfect is a IT Networking Product company. Perfect will play a significant role to give a perfect combination of technology and value for money for our valued customers.
+
+Perfect as a Brand :
+We will operate with the primary objective of providing a more integrated supply chain with real time services to meet customers’ needs supported by our robust Product Management, Sales, Customer Service and Finance Team.
+
+Perfect correlates closely with their associates by leveraging our scale in networks. Also in terms of customer reach and extensive operational experience.In order to lead and shape the IT Networking industry leveraging our already established Group Business network into the global market.Our goal is to elevate our brand globally.
+
+Our focus will be on consumer operations by setting new benchmarks in customer experience. Primary objective being to cement the Group’s position as the leading provider of next-generation communication, infotainment and technology services to consumers, small businesses, SOHO, SMB &amp; SME segments across the globe.
+
+
+
+Our Aim
+The world is aimed towards a better networking prospect. An intuitive networking based on premature levels is the need of the hour. Small to Mid level businesses are all in the pursuit of getting connected. Perfect aims to be the prime provider of all basic networking solutions to the end users across the globe.
+    </string>
 </resources>

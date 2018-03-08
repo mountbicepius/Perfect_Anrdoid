@@ -4,25 +4,9 @@
     <group android:id="@+id/one" android:checkableBehavior="single">
         <item
             android:id="@+id/nav_library"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@android:drawable/ic_menu_share"
             android:title="@string/music_library" />
 
-    <item android:title="@string/remote_services">
-        <menu>
-            <item
-                android:id="@+id/nav_sound_cound"
-                android:icon="@drawable/ic_menu_camera"
-                android:title="@string/sound_cloud" />
-        </menu>
-    </item>
 
-    <item android:title="@string/local_services">
-        <menu>
-            <item
-                android:id="@+id/nav_raw_folder"
-                android:icon="@drawable/ic_menu_camera"
-                android:title="@string/app_raw_folder" />
-        </menu>
-    </item>
     </group>
 </menu>

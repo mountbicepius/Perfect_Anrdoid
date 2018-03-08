@@ -4,14 +4,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/logo2"
-    tools:context="com.anirudh.echeval.perfect.fragment.PlaylistFragment">
+    tools:context="com.anirudh.echeval.perfect.fragment.SongFragment">
 
-
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/your_play_list"
+    <TextView
+        android:id="@+id/song_list"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="vertical"
-        android:scrollbars="horizontal" />
+        android:scrollbars="none" />
 
 </LinearLayout>
