@@ -1,5 +1,6 @@
 package com.anirudh.echeval.perfect;
 
+import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.Build;
 import android.os.Bundle;
@@ -61,8 +62,14 @@ public class MusicActivity extends AppCompatActivity{
 
                switch(id)
                {
-                   case R.id.nav_library:
-                    fragment = new LibraryFragment();
+                   case R.id.nav_share:
+                       Intent intent = new Intent();
+                       intent.setAction(Intent.ACTION_SEND);
+                       intent.putExtra(Intent.EXTRA_TEXT, "http://perfect4all.com");
+                       intent.setType("text/plain");
+                       startActivity(Intent.createChooser(intent, getResources().getText(R.string.send_to)));
+                   case R.id.nav_warranty:
+                        startActivity(new Intent(MusicActivity.this,WarrantyActivity.class));
 
                 }
 

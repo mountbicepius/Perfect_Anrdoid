@@ -23,7 +23,9 @@ public class LibraryFragment extends Fragment {
     private ViewPager viewPager;
 
 
-    public LibraryFragment() {
+    public LibraryFragment()
+    {
+
     }
 
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)

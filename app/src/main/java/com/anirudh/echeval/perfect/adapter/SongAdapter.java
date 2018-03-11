@@ -1,6 +1,7 @@
 package com.anirudh.echeval.perfect.adapter;
 
 import android.content.Context;
+import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -21,14 +22,15 @@ public class SongAdapter extends RecyclerView.Adapter<SongViewHolder>{
         this.allSongs = allSongs;
     }
 
+    @NonNull
     @Override
-    public SongViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+    public SongViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(context).inflate(R.layout.song_list_layout, parent, false);
         return new SongViewHolder(view);
     }
 
     @Override
-    public void onBindViewHolder(SongViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull SongViewHolder holder, int position) {
         SongObject songs = allSongs.get(position);
         holder.songTitle.setText(songs.getSongTitle());
         holder.songAuthor.setText(songs.getSongAuthor());

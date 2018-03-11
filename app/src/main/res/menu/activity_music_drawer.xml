@@ -3,10 +3,12 @@
 
     <group android:id="@+id/one" android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_library"
+            android:id="@+id/nav_warranty"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="@string/check_wrnty" />
+        <item
+            android:id="@+id/nav_share"
             android:icon="@android:drawable/ic_menu_share"
             android:title="@string/music_library" />
-
-
     </group>
 </menu>
