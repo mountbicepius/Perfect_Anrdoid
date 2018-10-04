@@ -29,7 +29,6 @@ public class MusicActivity extends AppCompatActivity{
     private FragmentManager fragmentManager;
     private Fragment fragment = null;
 
-    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
